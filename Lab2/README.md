@@ -10,9 +10,13 @@ https://www.youtube.com/watch?v=SXJM2i2bYO4
 
 Ans) To follow the Configurations and Backing Services principles, I updated each service to use environment variables instead of hard-coded values. I created separate .env files for the order-service, product-service, and store-front, and used tools like dotenv and proper config loading to make sure each service reads its settings from the environment. This makes the services easier to manage and more flexible across different environments.
 
+---
+
 #### Q2) Why is it important to use environment variables instead of hard-coding configurations in your application?
 
 Ans) Using environment variables keeps sensitive info like connection strings and ports out of the code, which is safer and cleaner. It also lets us change settings without touching the code, making it easier to move between development, testing, and production setups.
+
+---
 
 #### Q3) Why is it important to have separate repositories for each microservice? How does this help maintain independence and scalability of each service?
 
