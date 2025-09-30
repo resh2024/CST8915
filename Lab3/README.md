@@ -22,6 +22,8 @@ Ans) When I run services locally, I usually just start them with a simple comman
 
 Ans) Environment variables are important because they keep configuration separate from the code. This way, I don’t have to hardcode sensitive info like API keys or database passwords. It also makes it easy to change settings for different environments (dev, test, prod) without touching the code. In the cloud, platforms like Azure handle environment variables securely, which helps with both security and flexibility.
 
+---
+
 ### Repository Links
 
 #### Order-Service Repo Link
