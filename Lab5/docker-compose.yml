@@ -17,8 +17,7 @@ services:
 
   # Definition for Order Service
   order-service:
-    # Builds the Docker image for order-service using the local directory
-    build: ./order-service-L4
+    image: faizz19/order-service:latest
     # Maps the container's port 3000 to port 3000 on the host machine
     ports:
       - "3000:3000"
@@ -33,8 +32,7 @@ services:
 
   # Definition for Product Service
   product-service:
-    # Builds the Docker image for product-service using the local directory
-    build: ./product-service-python-L4
+    image: faizz19/product-service:latest
     # Maps the container's port 3030 to port 3030 on the host machine
     ports:
       - "3030:3030"
@@ -44,8 +42,7 @@ services:
 
   # Definition for Store Front (Frontend Service)
   store-front:
-    # Builds the Docker image for store-front using the local directory
-    build: ./store-front-L4
+    image: faizz19/store-front:latest
     # Maps the container's port 80 (HTTP) to port 80 on the host machine
     ports:
       - "80:80"
